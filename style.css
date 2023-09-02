@@ -1,0 +1,46 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 12px 15px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
+/* end navbar */
+
+/* main content */
+main{
+    display: flex;
+    padding: 50px 15px;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.main-article{
+    flex-basis: 65%;
+    background-color: white;
+    padding: 20px;
+}
+.recommended-article{
+    flex-basis: 25%;
+}
+/* end main content */
